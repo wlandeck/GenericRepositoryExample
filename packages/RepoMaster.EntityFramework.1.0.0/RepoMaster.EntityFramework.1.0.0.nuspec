@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>RepoMaster.EntityFramework</id>
+    <version>1.0.0</version>
+    <authors>Werner Landeck</authors>
+    <owners>Werner Landeck</owners>
+    <licenseUrl>https://github.com/wlandeck/GenericRepository/blob/master/License.txt</licenseUrl>
+    <projectUrl>https://github.com/wlandeck/GenericRepository</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This package allows for the implementation of a Generic Repository Using Entity Framework Code First</description>
+    <copyright>Werner Landeck</copyright>
+    <dependencies>
+      <dependency id="EntityFramework" version="6.1.1" />
+    </dependencies>
+  </metadata>
+</package>
