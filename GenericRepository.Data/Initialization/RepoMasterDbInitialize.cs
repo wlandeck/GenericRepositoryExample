@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace GenericRepository.Data.Initialization
 {
-    public class RepoMasterDbInitialize : DropCreateDatabaseAlways<BaseDataContext>
+    public class RepoMasterDbInitialize : CreateDatabaseIfNotExists<BaseDataContext>
     {
         protected override void Seed(BaseDataContext context)
         {
